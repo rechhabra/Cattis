@@ -1,3 +1,5 @@
+#Reshab Chhabra
+#time: 0.09s (1st)
 tc = gets.to_i
 (1..tc).each do |_|
   x,y = gets.split(" ").map{|x| x.to_r}
