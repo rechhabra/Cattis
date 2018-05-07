@@ -9,7 +9,5 @@ combos = combinations(vals,2)
 for group in combos:
   ans.add(abs(group[0]-W))
   ans.add(abs(group[0]-0))
-  ans.add(abs(group[0]-W))
-  ans.add(abs(group[0]-0))
   ans.add(abs(group[0]-group[1]))
 print(*sorted(list(ans))[1:])
